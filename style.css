@@ -1,0 +1,61 @@
+body{
+  text-align:center;
+  background-color:#e6e6e6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  
+}
+#title{
+  font-size:3.5rem;
+  margin:0;
+}
+#uchiha{
+background: -webkit-radial-gradient(#CE0A0A, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#img-div{
+  padding: 3% 1%;
+  background-color: white;
+  color: #000;
+}
+@media (max-width:550px){
+  #img-caption{
+    text-align:left;
+  }
+}
+#image{
+  max-width:80%;
+  margin: 0 auto;
+  border-radius:10px;
+  display :block;
+}
+#img-caption{
+  padding :0 3%;
+}
+
+ul {
+  max-width: 550px;
+  margin:0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li{
+  margin:10px;
+}
+blockquote{
+  max-width: 540px;
+  margin: 0 auto 50px auto;
+  text-align:left;
+  padding: 10px 10px;
+}
+#tribute-link{
+  background: -webkit-radial-gradient(#CE0A0A, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#footer{
+    color: ccc;
+    font-size: 10px ;
+    text-decoration: wavy;
+}
